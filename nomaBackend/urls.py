@@ -28,7 +28,9 @@ router.register('users', UserViewSet)
 
 urlpatterns = router.urls
 
-
+admin.site.site_header = "Noma referral admin Dashboard"  # Changes login, listview, and changeview titles
+admin.site.site_title = "Your Site Admin Portal"  # Changes HTML title tag
+admin.site.index_title = "Welcome to Noma Admin Panel"
 urlpatterns = [
     path('', include(router.urls)),
     path('admin/', admin.site.urls),
