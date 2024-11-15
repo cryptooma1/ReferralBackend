@@ -129,7 +129,7 @@ DATABASES = {
 }
 
 #database_url = os.environ.get('DATABASE_URL')
-DATABASES["default"] = dj_database_url.parse("postgres://nomadb_user:tjaVMxzLupZSVgCRhgzVX8j5VAja4dhA@dpg-cmv7v26v3ddc73br8cc0-a.frankfurt-postgres.render.com/nomadb")
+#DATABASES["default"] = dj_database_url.parse("postgres://nomadb_user:tjaVMxzLupZSVgCRhgzVX8j5VAja4dhA@dpg-cmv7v26v3ddc73br8cc0-a.frankfurt-postgres.render.com/nomadb")
 
 #postgres://nomadb_user:tjaVMxzLupZSVgCRhgzVX8j5VAja4dhA@dpg-cmv7v26v3ddc73br8cc0-a/nomadb
 
